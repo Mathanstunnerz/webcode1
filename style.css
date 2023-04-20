@@ -1,0 +1,104 @@
+* {
+  margin: 0%;
+}
+
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: aliceblue;
+  padding-bottom: 100px;
+  
+}
+.navbar-container {
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(147, 174, 196);
+}
+.card-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  gap: 10px;
+}
+.card {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.title1 {
+  margin: 0%;
+  text-align: center;
+  font-size: xx-large;
+  padding: 10px;
+  font-family: 'DynaPuff', cursive;
+}
+.title {
+  margin: 0%;
+  text-align: center;
+  font-size: larger;
+  padding: 10px;
+  font-family: 'Shadows Into Light', cursive;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  padding-bottom: 10px;
+}
+.bottom-conntainer {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+ 
+}
+.hp {
+  width: 100%;
+  background-color: rgba(53, 176, 192,0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: 'DynaPuff', cursive;
+  font-weight: lighter;
+  font-size: medium;
+  color: rgb(5, 94, 167);
+}
+.pagenation-container{
+    width: 100%;
+    height: 40px;
+    /* background-color: antiquewhite; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.nextvbutton{
+
+    border: 0.3px solid rgba(0, 225, 255, 0.7);
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    color:rgba(0, 225, 255, 0.7) ;
+    
+}
+.prevvbutton{
+
+    border: 0.3px solid rgba(0, 225, 255, 0.7);
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    color:rgba(0, 225, 255, 0.7) ;
+
+}
